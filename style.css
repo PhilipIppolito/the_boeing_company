@@ -4,7 +4,6 @@
             font-family: 'poppins', sans-serif;
             text-align: justify;
             max-width: 1500px;
-
         }
 
 
@@ -22,6 +21,7 @@
             max-width: 1050px;
             position: static;
             overflow: hidden;
+            text-align: justify;
         }
 
         table, th, td {
@@ -29,6 +29,14 @@
             margin: auto;
             text-align: center;
             border: 0px solid black;
+            border-collapse: collapse;
+        }
+
+        .deliveries_table {
+            text-align: center;
+            font-size: large;
+            padding: 10px;
+            border: 1px solid black;
             border-collapse: collapse;
         }
 
@@ -56,8 +64,6 @@
 
         .link {
             color:black;
-
-
         }
 
         a {

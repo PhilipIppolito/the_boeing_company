@@ -1,0 +1,82 @@
+        div {
+            margin:auto;
+            line-height: 1.5;
+            font-family: 'poppins', sans-serif;
+            text-align: justify;
+            max-width: 1500px;
+
+        }
+
+
+        #container {
+            border:1px solid white;
+            background-color:white;
+            margin:auto;
+            margin-top: 10px;
+            height: 100%;
+            padding: 10px;
+        }
+
+        #inner_container_page {
+
+            max-width: 1000;
+        }
+
+        table, th, td {
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+            border: 0px solid black;
+            border-collapse: collapse;
+        }
+
+        #header {
+            text-align: center; 
+            margin-top: 10px;
+            white-space: nowrap;
+        }
+
+        #nav {
+            background-color: rgb(60, 73, 86);
+            text-align: center;
+            font-size: medium;
+            max-width: 100%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .logo {
+            display: block;
+            width: 30%;
+            border: 1px;
+            padding: 20px;
+        }
+
+        .link {
+            color:black;
+
+
+        }
+
+        a {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-decoration: none;
+            color:rgb(52, 31, 151);
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        .center {
+            text-align: center;
+        }
+        
+        hr {
+            border: 2px solid gainsboro;
+        }

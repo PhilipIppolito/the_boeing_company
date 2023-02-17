@@ -18,8 +18,10 @@
         }
 
         #inner_container_page {
-
-            max-width: 1000;
+            display: block;
+            max-width: 1050px;
+            position: static;
+            overflow: hidden;
         }
 
         table, th, td {

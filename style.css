@@ -32,8 +32,20 @@
             border-collapse: collapse;
         }
 
+        .center {
+            text-align: center;
+        }
+
         .deliveries_table {
             text-align: center;
+            font-size: large;
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .spec_table {
+            text-align: left;
             font-size: large;
             padding: 10px;
             border: 1px solid black;
@@ -81,10 +93,14 @@
             color: black;
         }
 
-        .center {
-            text-align: center;
-        }
         
         hr {
             border: 2px solid gainsboro;
+        }
+        
+        .img_gallery {
+            border-radius: 10px;
+            border: 2px solid black;
+            max-width: 500px;
+            max-height: 500px;
         }

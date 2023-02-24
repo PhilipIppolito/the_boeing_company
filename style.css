@@ -17,6 +17,7 @@
             padding: 10px;
         }
 
+
         p {
             color:rgb(60, 73, 86)
         }
@@ -45,6 +46,14 @@
 
         .center {
             text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .left {
+            text-align: left;
         }
 
         .deliveries_table {
@@ -121,4 +130,10 @@
             border: 2px solid black;
             max-width: 180px;
             max-height: 200px;  
+        }
+
+        .fleet_image {
+            max-width: 100px;
+            max-height: 200px;
+            overflow-inline:hidden;
         }
